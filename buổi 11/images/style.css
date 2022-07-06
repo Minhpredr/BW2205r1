@@ -1,0 +1,137 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #5e8fb5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+header{
+    height: 20%;}
+
+header img {
+    height: 70%;
+    margin: 20px 20px;
+    margin-top: 15px;
+    
+    
+}
+header ul {list-style-type: none;
+    float:right;
+margin-right: 18%;
+margin-top: -105px;
+}
+
+header ul li{
+    display: inline-block;
+    color: #5e8fb5;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+header ul li >:hover{
+    color: rgb(42, 165, 42);
+    font-weight: 800;
+}
+
+header button{
+    background-color: white;
+    color: #5E8FB5;
+    border: 1px solid #5E8FB5;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    height: 50px;
+    padding: 5px 40px;
+}
+header button > li{
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: 70%;
+    border: none;
+}
+
+.intro{
+    width: 60%;
+    height: 70%;
+    text-align: center;
+    padding: 50px 20%;
+    line-height: 25px;
+}
+
+.intro button,.welcome button{ background-color: white;
+    color: #5e8fb5;
+    border: 1px solid #5e8fb5;
+    height: 50px;
+    padding: 5px 40px;
+    transition:color 1s, padding  3s;
+    
+    
+   
+    
+}
+h1{background-color: white;}
+
+.welcome{
+    background-color: #E1EFF4;
+    padding: 70px 30px;
+    height: 1800px;
+}
+.welcome > h2{
+    text-align: center;
+    color: #3181be;
+    overflow: auto;
+    height: auto;
+}
+
+.welcome h2::first-letter {
+    font-size: 40px;
+    color: orange;
+    text-decoration: underline;
+}
+
+.house-intro{
+    width: 46%;
+    height: 600px;
+    background-color: white;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.house-intro:nth-child(4), .house-intro:nth-child(5), .house-intro:nth-child(6){
+    width: 30%;
+    height: 500px;
+}
+
+.house-intro:nth-child(4) img, .house-intro:nth-child(5) img, .house-intro:nth-child(6) img {
+    height: 300px;
+}
+
+.house-intro img{
+    width: 100%;
+    height: 70%;
+}
+
+.house-intro p {
+    color: darkgray;
+}
+
+ button:hover{
+    color: orange;
+    border-color:orange ;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
